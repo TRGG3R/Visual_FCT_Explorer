@@ -2,7 +2,7 @@ from factom import Factomd
 import json
 
 factomd = Factomd(
-    host='http://10.1.10.229:8088'  # Change to your Factomd location
+    host='https://api.factomd.net/v2'  # Defaulted to Open Node. Change to your Factomd location
 )
 
 # Get latest completed block in the Factom blockchain #
